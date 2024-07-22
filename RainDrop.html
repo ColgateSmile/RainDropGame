@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Rain Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="RainDrop.css" rel="stylesheet">
+</head>
+<body>
+    <div id="rain-container"></div>
+    <div id="bottom-border"></div>
+    <div class="input-container">
+        <input type="text" id="answer-input" placeholder="Type your answer here...">
+        <div class="status">
+            <div class="hearts" id="hearts">
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+            </div>
+            <div id="score">Score: 0</div>
+        </div>
+        <div class="game-over" id="game-over">
+            <div class="loader">
+                <div data-glitch="Game Over" class="glitch">Game Over...</div>
+            </div>
+            <div id="accuracy"></div>
+            <button onclick="retryGame()">Retry</button>
+            <button onclick="goToMenu()">Menu</button>
+        </div>
+    </div>
+    <div class="timer" id="timer">00:00</div>
+    <script src="RainDrop.js"></script>
+</body>
+</html>

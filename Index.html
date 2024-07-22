@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Rain Game - Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Index_styles.css" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" id="day-night">
+    <label for="day-night" class="day-night-label"></label>
+    <div class="content">
+        <div class="moon-sun"></div>
+        <div id="rain-container"></div>
+    </div>
+    <audio id="lofi-music" src="https://example.com/lofi-music.mp3" loop></audio>
+
+    <button onclick="startGame()"> P L A Y
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+
+    <div class="difficulty-container">
+        <div class="radio-wrapper">
+            <input class="input" name="difficulty" id="easy" type="radio">
+            <div class="btn">
+                <span aria-hidden="">Easy</span>
+                <span class="btn__glitch" aria-hidden="">Easy</span>
+                <label class="number">1</label>
+            </div>
+        </div>
+        <div class="radio-wrapper">
+            <input class="input" name="difficulty" id="medium" type="radio">
+            <div class="btn">
+                <span aria-hidden="">Medium</span>
+                <span class="btn__glitch" aria-hidden="">Medium</span>
+                <label class="number">2</label>
+            </div>
+        </div>
+        <div class="radio-wrapper">
+            <input class="input" name="difficulty" id="hard" type="radio">
+            <div class="btn">
+                <span aria-hidden="">Hard</span>
+                <span class="btn__glitch" aria-hidden="">Hard</span>
+                <label class="number">3</label>
+            </div>
+        </div>
+    </div>
+
+    <script src="Index_scripts.js"></script>
+</body>
+
+</html>
