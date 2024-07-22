@@ -1,3 +1,9 @@
+function startGame() {
+    const selectedDifficulty = document.querySelector('input[name="difficulty"]:checked').value;
+    localStorage.setItem('selectedDifficulty', selectedDifficulty);
+    window.location.href = 'RainDrop.html';
+}
+
 const rainContainer = document.getElementById('rain-container');
 const dayNightToggle = document.getElementById('day-night');
 const lofiMusic = document.getElementById('lofi-music');
@@ -16,12 +22,6 @@ function createRaindrop() {
 
 function generateRain() {
     return setInterval(createRaindrop, 500);
-}
-
-
-
-function startGame() {
-    window.location.href = 'RainDrop.html';
 }
 
 let rainInterval = generateRain();
