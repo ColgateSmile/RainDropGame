@@ -162,24 +162,24 @@ button {
 }
 
 #leftArrow {
-    left: -13.5%;
+    left: -10.5%;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 50%);
 }
 
 #rightArrow {
     -webkit-clip-path: polygon(100% 49%, 0 0, 0 100%);
-    left: 115%;
+    left: 108%;
 }
 
 button:hover #rightArrow {
     background-color: #27c39f;
-    left: -15%;
+    left: -10%;
     animation: 0.6s ease-in-out both infinite alternate rightArrow8;
 }
 
 button:hover #leftArrow {
     background-color: #27c39f;
-    left: 103%;
+    left: 106%;
     animation: 0.6s ease-in-out both infinite alternate leftArrow8;
 }
 
@@ -315,7 +315,7 @@ button:hover #clip {
 }
 
 .btn {
-    --primary: #ff184c;
+    --primary: #3e9e46;
     --shadow-primary: #fded00;
     --color: white;
     --font-size: 9px;
@@ -351,7 +351,7 @@ button:hover #clip {
 }
 
 .input:hover + .btn {
-    --primary: #cc133c;
+    --primary: #8B00FF;
     --font-size: 11px;
 }
 
