@@ -42,8 +42,11 @@ Open index.html in your browser to start the game.
 Deployment
 The game is hosted on GitHub Pages. You can play the game online here.
 
+
 File Structure
 Copy code
+
+```bash
 RainDropGame/
 ├── docs/
 │   ├── Assets/
@@ -54,8 +57,11 @@ RainDropGame/
 │   ├── RainDrop.css
 │   ├── RainDrop.html
 │   └── RainDrop.JS
+```
+
 Contributing
 Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
+
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
