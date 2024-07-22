@@ -21,7 +21,7 @@ function generateRain() {
 
 
 function startGame() {
-    window.location.href = '//RainDrop.html';
+    window.location.href = 'RainDrop.html';
 }
 
 let rainInterval = generateRain();
