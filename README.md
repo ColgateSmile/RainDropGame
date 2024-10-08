@@ -62,15 +62,6 @@ RainDropGame/
 Contributing
 Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
 
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-Special thanks to all contributors and supporters.
-Inspired by various educational games and tools to make learning fun and interactive.
-Enjoy the Math Rain Game and improve your math skills!
-
 css
 Copy code
 
